@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\CV - Jacob Ravn 2023_html_2f522dcb4bec1c51.png" />
+    <None Include="wwwroot\CV - Jacob Ravn 2023_html_899e0654184b39de.gif" />
+  </ItemGroup>
+
+</Project>

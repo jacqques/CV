@@ -16,5 +16,11 @@ namespace CV.Pages
         {
 
         }
+
+        public IActionResult OnGetDownloadCV()
+        {
+            Console.WriteLine("hertil");
+            return File("/downloadableFiles/CV - Jacob Ravn 2023.odt", "application/octet-stream", "CV - Jacob Ravn 2023.odt");
+        }
     }
 }

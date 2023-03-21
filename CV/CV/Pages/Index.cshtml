@@ -1,4 +1,4 @@
-﻿@page
+﻿@page 
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -7,5 +7,10 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
 
+
     <a asp-area="Pages" asp-page="/cv"><p>To see online CV click here</p></a>
+
+    <a asp-page-handler="DownloadCV"><p>Download CV</p></a>
+
+
 </div>

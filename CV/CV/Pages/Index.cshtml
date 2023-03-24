@@ -14,36 +14,43 @@
     }
 
     .download-item {
-        width: 100%;
-        padding: 1px;
+        width: 33%;
+        display: flex;
+        justify-content: center;
     }
     .download-a {
         color: black;
         text-decoration: none;
+        font-size: 1.2em;
     }
 </style>
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
+    <h1 class="display-3">Welcome</h1>
+    <br/>
     <h2 class="display-6">CV</h2>
     <div class="download-container">
-        <div class="download-item shadow rounded">
+        <div class="download-item shadow rounded card">
             <a class="download-a" asp-area="Pages" asp-page="/cv"><p>To see online CV click here</p></a>
         </div>
-        <div class="download-item shadow rounded">
+        <div class="download-item shadow rounded card">
             <a class="download-a" asp-page-handler="DownloadCVODT"><p>Download CV as .odt</p></a>
         </div>
-        <div class="download-item shadow rounded">
+        <div class="download-item shadow rounded card">
             <a class="download-a" asp-page-handler="DownloadCVPDF"><p>Download CV as .pdf</p></a>
         </div>
     </div>
-    <h2>Recommendation</h2>
+    <h2 class="display-6">Recommendation</h2>
     <div class="download-container"> @*Recommendation*@
-        <a class="download-item" asp-page-handler="DownloadRecommendation"><p>Download newest Recommendation as .pdf</p></a>
+        <div class="download-item shadow rounded card">
+            <a class="download-a" asp-page-handler="DownloadRecommendation"><p>Download newest Recommendation as .pdf</p></a>
+        </div>
     </div>
-    <h2>Exams diploma</h2>
+    <h2 class="display-6">Exams diploma</h2>
     <div class="download-container"> @*diploma*@
-        <a class="download-item" asp-page-handler="DownloadBevisDiploma"><p>Download graduation diploma as .pdf</p></a>
+        <div class="download-item shadow rounded card">
+            <a class="download-a" asp-page-handler="DownloadBevisDiploma"><p>Download graduation diploma as .pdf</p></a>
+        </div>
     </div>
 
 

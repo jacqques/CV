@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CV
 build_property.RootNamespace = CV
-build_property.ProjectDir = C:\Users\Jacqques\source\repos\CV\CV\CV\
+build_property.ProjectDir = C:\Users\Jacqques\source\repos\CV\CV\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jacqques\source\repos\CV\CV\CV
+build_property.MSBuildProjectDirectory = C:\Users\Jacqques\source\repos\CV\CV
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Contact.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Cv.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Cv.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3YuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Education.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Education.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWR1Y2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Error.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Freetime.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Freetime.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJlZXRpbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Index.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Privacy.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Work.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Work.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29yay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/_ViewImports.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/_ViewStart.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jacqques/source/repos/CV/CV/CV/Pages/Shared/_Layout.cshtml]
+[C:/Users/Jacqques/source/repos/CV/CV/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qndynri7sa

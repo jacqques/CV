@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\CV\\CV.csproj",
+      "projectUniqueName": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\CV.csproj",
       "projectName": "CV",
-      "projectPath": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\CV\\CV.csproj",
+      "projectPath": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\CV.csproj",
       "packagesPath": "C:\\Users\\Jacqques\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\CV\\obj\\",
+      "outputPath": "C:\\Users\\Jacqques\\source\\repos\\CV\\CV\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

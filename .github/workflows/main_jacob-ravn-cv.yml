@@ -54,4 +54,4 @@ jobs:
           app-name: 'Jacob-Ravn-CV'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B758FD9B04EC48729FC03235F8FFDC0F }}
-          package: CV/.
+          package: .

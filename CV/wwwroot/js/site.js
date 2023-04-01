@@ -7,5 +7,8 @@ $(".dropdown").hover(function () {
     $(this).toggleClass("open");
 });
 
+$(".nav-item").on('click', function () {
+    $(this).toggleClass("active");
+})
 
 console.log("fin")

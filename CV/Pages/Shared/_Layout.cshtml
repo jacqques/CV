@@ -12,11 +12,13 @@
     <style type="text/css">
         .navbar-nav:hover > .nav-item {
             opacity: 0.5;
+            transition: opacity 400ms ease !important;
         }
 
         .navbar-nav:hover > .nav-item:hover {
             opacity: 1;
             background: linear-gradient(to bottom right, #EEF7F8, rgba(0, 98, 255, 0.202));
+                transition: opacity 400ms ease !important;
         }
 
         .dropdown-item:hover {
@@ -30,6 +32,7 @@
         #the-nav {
             display: flex !important;
             background: black;
+
         }
 
         #the-nav a {
@@ -50,6 +53,17 @@
         .nav-item {
             margin-right: 2vw;
             margin-left: 2vw;
+        }
+
+        .navbar-nav {
+            transition: opacity 400ms ease !important;
+        }
+
+        #navbar-background-pattern {
+            background-image: radial-gradient( rgba(255, 255, 255, 0.1) 9%, transparent: 9%) !important;
+            background-position: 0% 0% !important;
+            background-size: 12vmin, 12vmin !important;
+            background: white;
         }
         
         /*navbar-toggleable-sm navbar-light bg-white navbar-nav flex-grow-1 */
@@ -84,12 +98,11 @@
                         <li class="nav-item" id="contact">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
                         </li>
-                        <li class="nav-item" id="privacy">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
                     </ul>
+
                 </div>
             </div>
+            <div id="navbar-background-pattern"></div>
         </nav>
     </header>
     <div class="container">
@@ -100,7 +113,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - CV - <a asp-area="" asp-page="/Privacy">Privacy</a> - jacqques99@hotmail.com
+            &copy; 2023 - CV - jacqques99@hotmail.com
         </div>
     </footer>
 

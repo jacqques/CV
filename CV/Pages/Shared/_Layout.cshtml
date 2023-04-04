@@ -11,7 +11,7 @@
 
     <style type="text/css">
         .navbar-nav:hover > .nav-item {
-            opacity: 0.5;
+            opacity: 0.7;
             transition: opacity 400ms ease !important;
         }
 
@@ -62,18 +62,26 @@
 
         .navbar-background-pattern {
             height: 100%;
-            width: 100%;
-            background-image: radial-gradient( rgba(255, 255, 255, 0.5) 9%, transparent 9% );
-            /*background-image: url("https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8&w=1000&q=80");*/
-            background-position: 0% 0% !important;
-            background-size: 10vmin, 10vmin !important;
+
+            background-image: radial-gradient( rgba(255, 255, 255, 0.3) 9%, transparent 9% );
+            background-position: 0% 0%;
+            background-size: 6vmin 6vmin;
             position: absolute;
             left: 0px;
             top: 0px;
+            transition: background-size 800ms ease !important;
+
+            width: 100%;
             z-index: -1;
         }
+
+        .nav-item:hover ~ .navbar-background-pattern {
+            background-size: 4vmin 4vmin;
+            opacity: 0.5 !important; 
+            transition: background-size 600ms ease !important;
+        }
         
-        /*navbar-toggleable-sm navbar-light bg-white navbar-nav flex-grow-1 */
+        /#the-nav:hover ~ *navbar-toggleable-sm navbar-light bg-white navbar-nav flex-grow-1 */
 </style>
 </head>
 <body class="background">
@@ -104,9 +112,9 @@
                     <li class="nav-item" id="contact">
                         <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
                     </li>
+                    <li class="navbar-background-pattern"><p>arg</p></li>
                 </ul>
             </div>
-            <div class="navbar-background-pattern">arg</div>
         </nav>
     </header>
     <div class="container">

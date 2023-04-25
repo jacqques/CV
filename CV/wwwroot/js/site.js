@@ -11,4 +11,15 @@ $(".nav-item").on('click', function () {
     $(this).toggleClass("active");
 })
 
+const menu = document.getElementById("menu");
+
+Array.from(document.getElementsByClassName("nav-item"))
+    .forEach((item, index) => {
+        item.onmouseover = () => {
+            menu.dataset.activeIndex = index;
+        }
+    });
+
+
+
 console.log("fin")

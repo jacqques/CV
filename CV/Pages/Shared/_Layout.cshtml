@@ -65,11 +65,11 @@
 
             background-image: radial-gradient( rgba(255, 255, 255, 0.3) 9%, transparent 9% );
             background-position: 0% 0%;
-            background-size: 6vmin 6vmin;
-            position: absolute;
+            background-size: 5vmin 5vmin;
             left: 0px;
+            position: absolute;
             top: 0px;
-            transition: background-size 800ms ease !important;
+            transition: opacity 800ms ease, background-size 800ms ease, background-position 800ms ease;
 
             width: 100%;
             z-index: -1;
@@ -77,11 +77,21 @@
 
         .nav-item:hover ~ .navbar-background-pattern {
             background-size: 4vmin 4vmin;
-            opacity: 0.5 !important; 
-            transition: background-size 600ms ease !important;
+            opacity: 1 !important; 
+        }
+
+        #menu[data-active-index="0"] > #navbar-background-pattern {
+            background-position: 25% 0% !important;
+        }
+
+        #menu[data-active-index="1"] > #navbar-background-pattern {
+            background-position: 50% 0% !important;
+        }
+
+        #menu[data-active-index="2"] > #navbar-background-pattern {
+            background-position: 75% 0% !important;
         }
         
-        /#the-nav:hover ~ *navbar-toggleable-sm navbar-light bg-white navbar-nav flex-grow-1 */
 </style>
 </head>
 <body class="background">
@@ -92,7 +102,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse">
-                <ul class="nav-style navbar-nav">
+                <ul class="nav-style navbar-nav" id="menu">
                     <li class="nav-item" id="home">
                         <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                     </li>
@@ -112,7 +122,7 @@
                     <li class="nav-item" id="contact">
                         <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contact</a>
                     </li>
-                    <li class="navbar-background-pattern"><p>arg</p></li>
+                    <li id="navbar-background-pattern" class="navbar-background-pattern"></li>
                 </ul>
             </div>
         </nav>
